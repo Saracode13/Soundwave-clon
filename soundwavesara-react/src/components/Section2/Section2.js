@@ -16,7 +16,7 @@ function Section2(){
     
         <Container fluid className="background" >
 
-           <Row>
+           <Row className="menu">
              <Col className="Navigation">  
                 <Navbar>
             
@@ -41,13 +41,13 @@ function Section2(){
               
                <Container className="icons">
              
-                <Row>
+                <Row xs={8} sm={12} md={6} lg={6} xl={6}>
 
                    <Col><h1>Discover new music</h1></Col>
                 
                 </Row>
              
-                <Row className="Buttons">
+                <Row xs={8} sm={12} md={6} lg={6} xl={6} className="Buttons">
                    <Col className= "iconsbtn">
                     <Button variant="dark"><img src={micro}></img>Charts</Button>
                     <Button variant= "dark"><img src={albums}></img>Albums</Button>
@@ -63,13 +63,13 @@ function Section2(){
 
              
 
-             <Container lg={6} className="Foto">     
+             <Container xs={12} sm={12} md={6} lg={6} className="Foto">     
             
-                <Row>
+               
                 
-                <Col><img className="layoutfoto" src={Covers}></img></Col> 
+                <img className="layoutfoto" src={Covers}></img> 
                   
-                </Row>  
+              
                  
             </Container> 
 

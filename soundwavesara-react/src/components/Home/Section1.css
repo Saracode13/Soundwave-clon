@@ -28,13 +28,15 @@ a.Home {
     
 }
 
+
 a { 
-   
+
+
 text-decoration: none;
 font-size: 1em;
 font-weight: 200;
 color: white;
-padding-left: 13em;
+padding-left: 18em;
        
 }
 
@@ -42,9 +44,7 @@ a:hover {
     color:#b9b9bd;
 }
 
-Nav a {
-    width: 100px;
-}
+
 
 .Heroimg {
     
@@ -95,10 +95,9 @@ h2 {
 
     height: 450px;
     width: 350px;
-    z-index: 150;
+  
 }
   
-
 
 
 

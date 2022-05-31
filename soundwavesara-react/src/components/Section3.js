@@ -3,9 +3,7 @@ import {Form} from "react-bootstrap";
 import "./Section3.css"
 import {Container, Row, Nav, Navbar, Col} from "react-bootstrap";
 import logo from "/Users/SARA/Desktop/Factoria-F5/soundwavesara-react/src/logo.png";
-import Button from "react-bootstrap/Button";
-import "./Circlepink.css"
-import "./Circleblue.css"
+import {Button} from "react-bootstrap";
 
 
 
@@ -15,7 +13,7 @@ function Section3() {
     
         <Container fluid className="background" >
 
-           <Row>
+           <Row className="menu">
              <Col className="Navigation">  
                 <Navbar>
             
@@ -37,7 +35,7 @@ function Section3() {
 
              <Container className= "Circleblue1"></Container>
 
-<Container className="Circlepink"></Container>
+             <Container className="Circlepink"></Container>
 
         <Container className="textform">
 

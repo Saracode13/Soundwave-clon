@@ -1,0 +1,10 @@
+.Circlepinkmain {
+    width:18em;
+    height: 18em;
+    background-color:#bc3a801a;
+    border-radius: 50%;
+    position:absolute;
+    margin-top: 15em;
+    margin-left: 6em;  
+   
+}

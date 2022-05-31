@@ -5,8 +5,8 @@ import "./Section1.css"
 import {Container, Row, Nav, Navbar, Col} from "react-bootstrap";
 import Girl from "/Users/SARA/Desktop/Factoria-F5/soundwavesara-react/src/landing-page-girl.png"
 import logo from "/Users/SARA/Desktop/Factoria-F5/soundwavesara-react/src/logo.png"
-import "./Circlepink.css"
-import "./Circleblue.css"
+import "./CirclepinkSection1.css"
+import "./CircleblueSection1.css"
 
 
  function Section1(){
@@ -25,11 +25,11 @@ import "./Circleblue.css"
                 />
               <a className="Home" href="#home">Soundwave</a>
                  
-                  <Col class="Discjoin">
+                  <Col className="Discjoin">
                   
-                    <Nav>
-                       <a href="#discover">Discover</a>
-                       <a href="#join">Join</a>
+                    <Nav >
+                       <a xl={2} href="#discover">Discover</a>
+                       <a xl={2}href="#join">Join</a>
                      </Nav>
                 </Col>
              </Navbar>
@@ -39,9 +39,9 @@ import "./Circleblue.css"
          
           
                 
-                <Container className= "Circleblue1"></Container>
+                <Container className= "Circlebluemain"></Container>
 
-                <Container className="Circlepink"></Container>
+                <Container className="Circlepinkmain"></Container>
          
 
                 <Container className="Heroimg"> 
@@ -59,7 +59,7 @@ import "./Circleblue.css"
                     </Col>
                   </Row>
 
-                <Container className="Circleblue2"></Container> 
+                <Container className="Circlebluemain2"></Container> 
       
          </Container>
          
