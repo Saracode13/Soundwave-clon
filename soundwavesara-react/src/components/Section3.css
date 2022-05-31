@@ -1,0 +1,67 @@
+.textform.container {
+
+display: flex;
+justify-content: center;
+margin-top: 11em;
+}
+
+.Textjoin {
+   display: flex;
+   
+   align-items: center;
+   font-size: 1.3em;
+   padding-right: 120px;
+}
+
+.Form {
+
+height: 350px; 
+width: 500px;  
+background-color: #202027;
+border-radius: 5%;
+}
+
+.form-control {
+
+background-color: #202027;
+border: 1px solid #2E3852;
+}
+
+label{
+
+    margin-top: 5px;
+}
+
+Button {
+    width: 465px;
+    margin-left: 20px;
+}
+
+.pinktext{
+
+    color: #bc3a80
+}
+
+.Circlepink {
+    width:350px;
+    height: 350px;
+    background-color:#bc3a801a;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 70px;
+    margin-top: 14em;   
+}
+
+.Circleblue1 {
+    width:350px;
+    height: 350px;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    margin-left:450px;
+    position: absolute;
+    margin-top: 10px;
+    
+    z-index: 100;
+    
+      
+}

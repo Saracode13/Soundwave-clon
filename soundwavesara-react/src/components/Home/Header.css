@@ -1,0 +1,40 @@
+
+
+.Navigation.col  {
+    
+    font-family: Poppins;
+    font-size: 1rem;
+    ;
+}
+
+
+Nav {
+    width: 100px;
+    height: 60px;
+    height: 60px; 
+    padding-left: 10px;
+}
+   
+   
+a { text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+    padding-left: 30px;
+    
+}
+
+a.Home {
+font-size: 1.2rem;
+
+padding-left: 10px;
+
+}
+
+
+img.logo {
+
+  margin-left: 5px; 
+ 
+
+}
