@@ -2,7 +2,7 @@ import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
 import Twitter from "/Users/SARA/Desktop/Factoria-F5/soundwavesara-react/src/twitter.svg"
 import Facebook from "/Users/SARA/Desktop/Factoria-F5/soundwavesara-react/src/facebook.svg"
-import "./Footer.css"
+
 
 
 function Footer () {
