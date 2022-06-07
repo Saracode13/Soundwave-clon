@@ -1,11 +1,11 @@
 .Circlepink {
-    width:350px;
-    height: 350px;
+    width:29em;
+    height: 29em;
     background-color:#bc3a801a;
     border-radius: 50%;
     position:absolute;
-    margin-left: 70px;
-    margin-top: 14em;
+    left:-10em;
+    top: 30%;
     
    
     
